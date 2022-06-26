@@ -12,7 +12,7 @@ def randInt():
 
 def getInfo():
     targetIP=input("\nTarget IP:")
-    targetPort=input()
+    targetPort=input("\nTarget posrt number: ")
     return targetIP,int(targetPort)
 
 def SYN_FLOOD(targetIP,targetPort,numberOfPacket):
